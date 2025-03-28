@@ -16,3 +16,14 @@ This is a simple Python project that performs real-time face detection using Ope
 2. Ensure you have OpenCV installed:
    ```bash
    pip install opencv-python
+A window will open showing your webcam feed. Detected faces will be highlighted with blue rectangles.
+Press q to quit the program.
+Code Explanation
+The script uses OpenCV's CascadeClassifier to load the pre-trained Haar Cascade model for face detection.
+The webcam feed is processed frame-by-frame, and detected faces are highlighted with rectangles.
+The program exits when the user presses the q key.
+Notes
+This project is intended for educational purposes and basic face detection tasks.
+For advanced face detection (e.g., with better accuracy), consider using deep learning-based models like MTCNN or Dlib.
+License
+This project is open-source and free to use. Feel free to modify and share it as needed!
